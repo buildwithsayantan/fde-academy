@@ -1,18 +1,39 @@
+# ==========================
 # macOS
+# ==========================
 .DS_Store
 
+# ==========================
 # Python
+# ==========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
 
-# Virtual Environments
+# Virtual Environment
 .venv/
+venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+*.log
 
 # VS Code
 .vscode/
 
-# Environment Variables
-.env
+# Pytest
+.pytest_cache/
 
-# Logs
-*.log
+# Coverage
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS Files
+Thumbs.db
